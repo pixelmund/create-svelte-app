@@ -22,7 +22,7 @@ let newDir = true;
 
 if (mainArg === '.' || mainArg === './' || mainArg === '') {
   baseDir = resolve('./');
-  nameArg = createPackageName(basename('./'));
+  nameArg = createPackageName(basename(baseDir));
   newDir = false;
 } else if (isDirectory(mainArg)) {
   nameArg = createPackageName(basename(mainArg));

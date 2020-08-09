@@ -1,21 +1,22 @@
 {
   "name": "@pixelmund/create-svelte-app",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "Bootstrap your next svelte/sapper application. Choose typescript, sass or any preprocessor. Webpack or Rollup.",
-  "main": "dist/index.js",
+  "main": "index.js",
   "bin": {
-    "create-svelte-app": "./dist/index.js",
-    "csa": "./dist/index.js"
+    "create-svelte-app": "./index.js",
+    "csa": "./index.js"
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "csa": "ts-node ./src/index.ts",
-    "build": "npm run prebuild&& tsc && npm run copy",
+    "build": "npm run prebuild&& tsc&& npm version patch&& npm run copy",
     "prebuild": "rimraf ./dist",
     "copy": "node copy-templates.js",
-    "prepublish": "npm run build"
+    "pre-release": "cd dist&& npm publish",
+    "release": "npm run build&& npm run pre-release"
   },
   "prettier": {
     "trailingComma": "es5",
