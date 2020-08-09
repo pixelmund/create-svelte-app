@@ -1,4 +1,7 @@
-# Create Svelte App
+# create-svelte-app 
+
+![npm](https://img.shields.io/npm/v/@pixelmund/create-svelte-app?style=flat-square) ![NPM](https://img.shields.io/npm/l/@pixelmund/create-svelte-app?style=flat-square) ![GitHub issues](https://img.shields.io/github/issues/pixelmund/create-svelte-app?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/pixelmund/create-svelte-app?style=flat-square)
+
 
 ### Why should i use create-svelte-app?
 
@@ -11,10 +14,7 @@
 #### Getting started
 
 ```bash
-
 npm i @pixelmund/create-svelte-app -g
-
-
 ```
 
 #### How to
@@ -28,12 +28,14 @@ create-svelte-app [alias: csa]
 or
 
 create-svelte-app [alias: csa] path [CLI will use the folder name]
+```
 
 You can also use npx:
 
+```bash
 npx @pixelmund/create-svelte-app
-
 ```
+
 
 #### The CLI will ask you questions about your project
 
