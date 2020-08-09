@@ -14,18 +14,21 @@ If you installed the package globally simply run
 
 ```bash
 
-create-svelte-app [alias: csa] name_of_application: [folder will get created]
+create-svelte-app [alias: csa] name_of_application
 or
-create-svelte-app [alias: csa] path: [CLI will use the folder name]
+create-svelte-app [alias: csa] path [CLI will use the folder name]
 
 ```
 
 The CLI will ask you questions about your project
 
-For Example:
+#### For Example:
+
 `Svelte or Sapper?`
 `Rollup or Webpack?`
 `Typescript?`
-`Css preprocesssor?`
+`Css-preprocesssor?`
+
 ... will add more later
+
 ... feel free to create an issue with your needs
