@@ -10,6 +10,14 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pixelmund/create-svelte-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pixelmund/create-svelte-app/issues"
+  },
+  "homepage": "https://github.com/pixelmund/create-svelte-app#README",
   "scripts": {
     "csa": "ts-node ./src/index.ts",
     "build": "npm run prebuild&& tsc&& npm version patch&& npm run copy",
