@@ -1,7 +1,7 @@
 {
   "name": "@pixelmund/create-svelte-app",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.2",
+  "description": "Bootstrap your next svelte/sapper application. Choose typescript, sass or any preprocessor. Webpack or Rollup.",
   "main": "dist/index.js",
   "bin": {
     "create-svelte-app": "./dist/index.js",
@@ -23,9 +23,22 @@
     "semi": true,
     "singleQuote": true
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "svelte",
+    "sapper",
+    "cli",
+    "create-svelte-app",
+    "svelte-boilerplate",
+    "svelte webpack",
+    "svelte typescript",
+    "sapper typescript",
+    "sapper webpack",
+    "sapper boilerplate",
+    "svelte cli",
+    "sapper cli"
+  ],
+  "author": "Pixelmund",
+  "license": "MIT",
   "devDependencies": {
     "@types/fs-extra": "^9.0.1",
     "@types/inquirer": "^7.3.0",

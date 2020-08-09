@@ -5,7 +5,7 @@
 ```bash
 npm i @pixelmund/create-svelte-app -g
 or
-npx @pixelmund/create-svelte-app [name_of_application]
+npx @pixelmund/create-svelte-app name_of_application
 ```
 
 #### How to

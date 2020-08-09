@@ -20,9 +20,9 @@ let nameArg: string;
 let baseDir = process.cwd();
 let newDir = true;
 
-if (mainArg === '.' || mainArg === './') {
-  baseDir = resolve(mainArg);
-  nameArg = createPackageName(basename(mainArg));
+if (mainArg === '.' || mainArg === './' || mainArg === '') {
+  baseDir = resolve('./');
+  nameArg = createPackageName(basename('./'));
   newDir = false;
 } else if (isDirectory(mainArg)) {
   nameArg = createPackageName(basename(mainArg));
