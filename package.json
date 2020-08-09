@@ -1,6 +1,6 @@
 {
   "name": "@pixelmund/create-svelte-app",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bootstrap your next svelte/sapper application. Choose typescript, sass or any preprocessor. Webpack or Rollup.",
   "main": "dist/index.js",
   "bin": {
