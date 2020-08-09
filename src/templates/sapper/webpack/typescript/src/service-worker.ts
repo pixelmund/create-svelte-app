@@ -59,9 +59,8 @@ self.addEventListener(
 
     // always serve static files and bundler-generated assets from cache
     if (url.host === self.location.host && cached.has(url.pathname)) {
-      caches.match(event.request).then((match): void => {
-        if (match) event.respondWith(match);
-      });
+      //@ts-expect-error
+      event.respondWith(caches.match(event.request));
       return;
     }
 
